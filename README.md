@@ -1,12 +1,12 @@
 # upgrade-basic-functions
-Iteración #1: Buscar el máximo
+Iteración #1: Buscar el máximo -- 
   Completa la función que tomando dos números como argumento devuelva el más alto.
   
     function sum(numberOne , numberTwo) {
       // insert code
     }
     
-Iteración #2: Buscar la palabra más larga
+Iteración #2: Buscar la palabra más larga -- 
   Completa la función que tomando un array de strings como argumento devuelva el más largo, en caso de que dos strings tenga la   misma longitud deberá devolver el primero.
   Puedes usar este array para probar tu función:
   
@@ -15,7 +15,7 @@ Iteración #2: Buscar la palabra más larga
         // insert code
       }
       
-Iteración #3: Calcular la suma      
+Iteración #3: Calcular la suma --      
   Calcular una suma puede ser tan simple como iterar sobre un array y sumar cada uno de los elementos.
   Implemente la función denominada sumNumbers que toma un array de números como argumento y devuelve la suma de todos los números de la matriz. 
   Puedes usar este array para probar tu función:
@@ -25,7 +25,7 @@ Iteración #3: Calcular la suma
         // insert code
       }
 
-Iteración #4: Calcular el promedio
+Iteración #4: Calcular el promedio -- 
   Calcular un promedio es una tarea extremadamente común. Puedes usar este array para probar tu función:
 
     const numbers = [12, 21, 38, 5, 45, 37, 6];
@@ -33,7 +33,7 @@ Iteración #4: Calcular el promedio
         // insert code
       }
 
-Iteración #5: Calcular promedio de strings
+Iteración #5: Calcular promedio de strings -- 
   Crea una función que reciba por parámetro un array y cuando es un valor number lo sume y de lo contrario cuente la longitud del string y lo sume. Puedes usar este array para     probar tu función:
 
     const mixedElements = [6, 1, 'Rayo', 1, 'vallecano', '10', 'upgrade', 8, 'hub'];
@@ -41,7 +41,7 @@ Iteración #5: Calcular promedio de strings
         // insert code
       }
 
-Iteración #6: Valores únicos
+Iteración #6: Valores únicos -- 
   Crea una función que reciba por parámetro un array y compruebe si existen elementos duplicados, en caso que existan los elimina para retornar un array sin los elementos         duplicados. Puedes usar este array para probar tu función:
 
     const duplicates = [
@@ -61,7 +61,7 @@ Iteración #6: Valores únicos
         // insert code
       }
 
-Iteración #7: Buscador de nombres
+Iteración #7: Buscador de nombres -- 
   Crea una función que reciba por parámetro un array y el valor que desea comprobar que existe dentro de dicho array - comprueba si existe el elemento, en caso que existan nos     devuelve un true y la posición de dicho elemento y por la contra un false. Puedes usar este array para probar tu función:
   
     const nameFinder = [
@@ -81,7 +81,7 @@ Iteración #7: Buscador de nombres
         // insert code
       }
 
-Iteration #8: Contador de repeticiones
+Iteration #8: Contador de repeticiones -- 
   Crea una función que nos devuelva el número de veces que se repite cada una de las palabras que lo conforma.  Puedes usar este array para probar tu función:
     
     const counterWords = [
