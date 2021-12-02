@@ -100,6 +100,43 @@ const duplicates = [
 
     console.log(removeDuplicates(duplicates));
 
+//Iteración 7
+const nameFinder = [
+    'Peter',
+    'Steve',
+    'Tony',
+    'Natasha',
+    'Clint',
+    'Logan',
+    'Xabier',
+    'Bruce',
+    'Peggy',
+    'Jessica',
+    'Marc'
+  ];
+
+    function finderName(param, a) {
+        for (let i = 0; i < param.length; i++) {
+            if (param[i] === a) {
+                true;
+                var position = param.indexOf(a);
+                return position;
+            } 
+        }
+    }
+
+    //Testeo - búsqueda nombre Natasha
+    let result = finderName(nameFinder, 'Natasha');
+    console.log(result); //Devuelve posición 3, correcto
+
+
+
+
+
+
+
+
+
 
 
 
