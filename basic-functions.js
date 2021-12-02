@@ -76,6 +76,33 @@ const mixedElements = [6, 1, 'Rayo', 1, 'vallecano', '10', 'upgrade', 8, 'hub'];
 let sumMixedElements = averageWord(mixedElements);
 console.log(sumMixedElements);
 
+//Iteración 6
+const duplicates = [
+    'sushi',
+    'pizza',
+    'burger',
+    'potatoe',
+    'pasta',
+    'ice-cream',
+    'pizza',
+    'chicken',
+    'onion rings',
+    'pasta',
+    'soda'
+  ];
+  
+    function removeDuplicates(param) {
+        for (i = 0; i < param.length; i++) {
+            var unicos = new Set(param);
+        } 
+     return unicos;
+    }
+
+    console.log(removeDuplicates(duplicates));
+
+
+
+
 
 
 
