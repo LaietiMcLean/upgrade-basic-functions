@@ -129,7 +129,108 @@ const nameFinder = [
     let result = finderName(nameFinder, 'Natasha');
     console.log(result); //Devuelve posición 3, correcto
 
+//Iteración 8
+const counterWords = [
+    'code',
+    'repeat',
+    'eat',
+    'sleep',
+    'code',
+    'enjoy',
+    'sleep',
+    'code',
+    'enjoy',
+    'upgrade',
+    'code'
+  ];
 
+function repeatCounter(param) {
+    var historico = [];  
+    var repetidas = [];  
+    var contador = 0;
+   
+    for (i=0; i < param.length;i++){  
+        if(historico.includes(param[i])){
+            repetidas.push(param[i]);
+        } else {
+            historico.push(param[i]);
+                } 
+    }
+
+    for (i = 0; i < historico.length; i++){
+        contador = 0;
+        for (j=0; j< param.length; j++) {
+            if (historico[i] == param[j]) {
+                contador++;
+            }
+        }
+        
+        console.log(historico[i]+ " se repite: "+ contador +" veces.")
+    }
+}
+  
+  total = repeatCounter(counterWords);
+  console.log(total);
+
+
+
+  //for (j=0; j< param.length;j++){}
+
+
+
+
+
+
+
+
+
+
+
+    //function repeatCounter(param){
+        //var word = [];
+        //var wordRecorridas = [];
+        //var repeticiones = [];
+        //contador = 1
+        //for (var i = 0; i < param.length; i++) {
+            //if (param[i] == !word[i]) {
+                //wordRecorridas.push(param[i]);
+                //contador++;
+            //} else {
+                //repeticiones.push(pram[i]);
+                //contador++;
+            //}
+            //console.log(wordRecorridas);
+            //console.log(repeticiones);
+        //}
+    //}
+
+
+
+
+    //function repeatCounter(param) {
+        //let elementos = [];
+        //let repeticiones = [];
+        //let contador = 1;
+
+        //for (let i = 0; i < param.length; i++) {
+            //if(param[i+1] === param[i]){
+               //console.log("Se repite el elemento " + param[i]);
+               //contador++;
+            //} else {
+                //elementos.push(param[i]);
+                //repeticiones.push(contador);
+                //contador = 1;
+            //}
+        //}
+        //console.log(elementos);
+        //console.log(repeticiones);
+
+        //for (let y = 0; y < elementos.length; y++){
+            //console.log("El valor " + elementos[y] + " se repite " + repeticiones[y]);
+            //}
+        //}
+    //let resultado2 = repeatCounter(counterWords);
+    //console.log(resultado2);
 
 
 
